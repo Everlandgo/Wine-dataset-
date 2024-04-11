@@ -1,4 +1,4 @@
-# Wine-dataset
+# Wine classifier 
 In this project, I deliberately avoided using external libraries and instead developed each component from scratch. I created a customised KNN classifier function, setting hyperparameters such as the choice of distance metric, the dataset and the 'k' value. The values predicted by the classifier were used to evaluate the model's performance against the actual labels and calculate various evaluation metrics.
 
 In addition to the classifier function, I also developed functions for splitting the dataset into a training and a test dataset and for calculating key performance metrics such as accuracy, precision, recall and F1 score. Each of these functions was carefully developed without relying on existing libraries.
